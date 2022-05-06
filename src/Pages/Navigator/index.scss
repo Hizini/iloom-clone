@@ -1,0 +1,39 @@
+.navigator-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 40px;
+    padding: 5px;
+
+    .menu-area {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .menu {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .item {
+                padding: 0 10px;
+                font-size: 15px;
+                font-weight: bold;
+            }
+        }
+    }
+
+    .etc-area {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .item {
+            padding: 0 10px;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+}
