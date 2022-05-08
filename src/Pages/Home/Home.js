@@ -2,6 +2,7 @@
 import React, { Component } from 'react'
 import './Home.scss'
 import Navigator from '../Navigator'
+import SliderSection from './SliderSection'
 
 class Home extends Component {
 
@@ -13,12 +14,12 @@ class Home extends Component {
 
     render() {
         return (
-            <>
+            <div className='home-root-container'>
                 <Navigator />
                 <div className='home-container'>
-
+                    <SliderSection />
                 </div>
-            </>
+            </div>
         )
     }
 }
