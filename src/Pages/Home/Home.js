@@ -4,6 +4,7 @@ import './Home.scss'
 import Navigator from '../Navigator'
 import SliderSection from './SliderSection'
 import RecommendSection from './RecommendSection'
+import CardSection from './CardSection'
 
 class Home extends Component {
 
@@ -20,6 +21,10 @@ class Home extends Component {
                 <div className='home-container'>
                     <SliderSection />
                     <RecommendSection />
+                    <div className='banner-section card'>
+                        <img src='https://www.iloom.com/img/front/main/main_cardlist_banner.png' alt=''/>
+                    </div>
+                    <CardSection />
                 </div>
             </div>
         )
