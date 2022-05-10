@@ -3,6 +3,7 @@ import React, { Component } from 'react'
 import './Home.scss'
 import Navigator from '../Navigator'
 import SliderSection from './SliderSection'
+import RecommendSection from './RecommendSection'
 
 class Home extends Component {
 
@@ -18,6 +19,7 @@ class Home extends Component {
                 <Navigator />
                 <div className='home-container'>
                     <SliderSection />
+                    <RecommendSection />
                 </div>
             </div>
         )
