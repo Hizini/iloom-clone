@@ -1,0 +1,131 @@
+.review-container {
+    width: 1200px;
+    height: 500px;
+
+    .review-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+
+        .review-area {
+            width: calc(100%/4 - 30px);
+
+            .review {
+                .review-img {
+                    border-radius: 8px;
+                    width: 270px;
+                    height: 270px;
+                }
+
+                .score-box {
+                    position: relative;
+                    overflow: hidden;
+                    height: 22px;
+
+                    .score-area {
+                        height: 22px;
+                        white-space: nowrap;
+                        overflow: hidden;
+
+                        .score {
+                            width: 22px;
+                            height: 22px;
+                        }
+                    }
+
+                    .score-num {
+                        position: absolute;
+                        top: 0;
+                        left: 120px;
+                        height: 22px;
+                        line-height: 22px;
+                    }
+
+                    .score-back-area {
+                        position: absolute;
+                        z-index: 1;
+                        // margin-left: 84px;
+                        top: 0;
+                        width: 110px;
+                        height: 22px;
+    
+                        .background {
+                            width: 22px;
+                            height: 22px;
+                        }
+                    }
+                }
+
+                .title {
+                    margin-top: 18px;
+                    font-size: 16px;
+                    font-weight: bold;
+                }
+
+                .content {
+                    font-size: 14px;
+                    line-height: 22px;
+                    color: #666;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    height: 44px;
+                    display: -webkit-box;
+                    -webkit-line-clamp: 2;
+                    -webkit-box-orient: vertical;
+                    margin: 10px 0 18px 0;
+                }
+            }
+
+            .product {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                border-top: 3px dotted #ccc;
+                width: calc(270px - 24px);
+                height: 70px;
+                padding: 20px 12px 0 12px;
+
+                .product-img {
+                    img {
+                        width: 70px;
+                        height: 70px;
+                        border-radius: 35px;
+                    }
+                }
+
+                .product-info {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    width: 45%;
+                    font-size: 13px;
+                    margin: 4px 0;
+
+                    .name {
+                        font-weight: bold;
+                        overflow: hidden;
+                        text-overflow: ellipsis;
+                        white-space: nowrap;
+                    }
+                }
+
+                .product-wish {
+                    display: flex;
+                    flex-direction: row;
+                    margin-top: 4px;
+                    
+                    .wish-cnt {
+                        font-size: 13px;
+                    }
+
+                    img {
+                        width: 16px;
+                        height: 16px;
+                        margin: 1.2px 0 0 3px;
+                    }
+                }
+            }
+        }
+    }
+}
