@@ -6,6 +6,7 @@ import SliderSection from './SliderSection'
 import RecommendSection from './RecommendSection'
 import CardSection from './CardSection'
 import ReviewSection from './ReviewSection'
+import InstagramArea from './InstagramArea'
 
 class Home extends Component {
 
@@ -35,6 +36,7 @@ class Home extends Component {
                         </div>
                     </div>
                     <ReviewSection/>
+                    <InstagramArea/>
                 </div>
             </div>
         )
