@@ -7,6 +7,7 @@ import RecommendSection from './RecommendSection'
 import CardSection from './CardSection'
 import ReviewSection from './ReviewSection'
 import InstagramArea from './InstagramArea'
+import QuickMenu from './QuickMenu'
 
 class Home extends Component {
 
@@ -35,8 +36,9 @@ class Home extends Component {
                             <img src='https://www.iloom.com/img/front/btn/arrow_r_black.svg' alt=''/>
                         </div>
                     </div>
-                    <ReviewSection/>
-                    <InstagramArea/>
+                    <ReviewSection />
+                    <InstagramArea />
+                    <QuickMenu />
                 </div>
             </div>
         )

@@ -1,0 +1,47 @@
+.quick-menu-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 80px 0;
+
+    .heading {
+        font-size: 26px;
+        font-weight: bold;
+        letter-spacing: 5px;
+        color: #323232;
+    }
+
+    .body {
+        width: 800px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+
+        .menu-area {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+
+            .img {
+                width: 200px;
+                height: 200px;
+            }
+
+            .title {
+                font-size: 16px;
+                margin-top: 20px;
+            }
+
+            .des {
+                font-size: 17px;
+                margin-top: 15px;
+            }
+        }
+    }
+}
