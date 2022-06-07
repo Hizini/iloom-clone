@@ -8,6 +8,7 @@ import CardSection from './CardSection'
 import ReviewSection from './ReviewSection'
 import InstagramArea from './InstagramArea'
 import QuickMenu from './QuickMenu'
+import Notice from './Notice'
 
 class Home extends Component {
 
@@ -39,6 +40,7 @@ class Home extends Component {
                     <ReviewSection />
                     <InstagramArea />
                     <QuickMenu />
+                    <Notice />
                 </div>
             </div>
         )
